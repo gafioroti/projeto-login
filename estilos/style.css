@@ -63,7 +63,17 @@ div#form > p {
     font-size: 0.8em;
 }
 
+div.campo >label {
+    display: none;
+}
+
 form > div.campo {
+    display: block;
+    background-color: #5f2c82;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
     
 }
 
