@@ -67,12 +67,29 @@ div.campo >label {
     display: none;
 }
 
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(100%-50px);
+    height: 100%;
+    transform: translateY(-12px);
+    border: 0px;
+    border-radius: 8px;
+}
+
 form > div.campo {
     display: block;
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     height: 40px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
     
 }
@@ -84,7 +101,7 @@ form > input[type=submit] {
     height: 40px;
     background-color:#49a09d;
     color: white;
-    border: none;
+    border: 0px;
     border-radius: 5px;
 }
 
