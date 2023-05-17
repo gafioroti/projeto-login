@@ -33,10 +33,10 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    transform: translate(-50%,-50%);
     transition: width .3 height .3;
     transition-timing-function: ease;
 }
@@ -78,9 +78,10 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 50px);
     height: 100%;
-    transform: translateY(-12px);
     border: 0px;
-    border-radius: 8px;
+    border-radius: 8px; 
+    
+    transform: translateY(-12px);
 }
 
 form > div.campo {
